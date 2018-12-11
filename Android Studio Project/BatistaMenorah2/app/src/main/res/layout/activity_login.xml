@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/frame"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="Preencha com seu E-mail pessoal e seu nome:"
+        android:layout_marginTop="15dp"/>
+
+    <AutoCompleteTextView
+        android:id="@+id/email_cadastrar_field"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:layout_marginTop="10dp"
+        android:inputType="textEmailAddress"/>
+
+    <AutoCompleteTextView
+        android:id="@+id/nomeEdt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/email_cadastrar_field"
+        android:hint="Nome"
+        android:layout_marginTop="10dp"
+        android:inputType="textPersonName"/>
+
+    <Button
+        android:id="@+id/cadastrarBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cadastrar" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="Caso já esteja cadastrado preencha só com seu email:"
+        android:layout_marginTop="15dp"/>
+
+    <AutoCompleteTextView
+        android:id="@+id/email_entrar_field"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:layout_marginTop="10dp"
+        android:inputType="textEmailAddress"/>
+    <Button
+        android:id="@+id/entrarBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Entrar"
+        android:layout_centerHorizontal="true"/>
+
+    <EditText
+        android:id="@+id/codigoEdt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Código de função (opcional)"
+        android:layout_alignParentBottom="true" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Você é um membro?"
+        android:textAlignment="center"/>
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <RadioButton
+            android:id="@+id/radioSim"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sim"
+            android:layout_weight="1"
+
+            android:onClick="onRadioButtonClicked" />
+
+        <RadioButton
+            android:id="@+id/radioNao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onRadioButtonClicked"
+            android:text="Não"
+            android:layout_weight="1"
+
+            android:checked="true"/>
+    </RadioGroup>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ou"
+        android:textAlignment="center"/>
+    <Button
+        android:id="@+id/pular_cadastro_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pular Cadastro"/>
+
+</LinearLayout>

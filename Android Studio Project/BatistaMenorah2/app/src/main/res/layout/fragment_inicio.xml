@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/cultoDomingoTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:text="Culto aos Domingos:"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"/>
+        <TextView
+            android:id="@+id/horariosDomingoTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cultoDomingoTxt"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="15dp"
+            android:text="Manhã: 09:00 às 11:00
+Noite: 18:00 às 20:00"/>
+        <TextView
+            android:id="@+id/cultoQuintaTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/horariosDomingoTxt"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="10dp"
+            android:text="Cultos às Quintas:"
+            android:textSize="18dp"/>
+        <TextView
+            android:id="@+id/horariosQuintaTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cultoQuintaTxt"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="15dp"
+            android:text="20:00 às 22:00"/>
+        <TextView
+            android:id="@+id/gcTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/horariosQuintaTxt"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="10dp"
+            android:text="Grande Celebração de Jovens e Adolescentes:"
+            android:textSize="18dp" />
+        <TextView
+            android:id="@+id/horariosGcTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/gcTxt"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="15dp"
+            android:text="Todo último sábado do mês às 20:00"/>
+        <!--<TextView
+            android:id="@+id/buscaMatinalTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/horariosGcTxt"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="10dp"
+            android:text="Busca Matinal:"
+            android:textSize="18dp" />
+        <TextView
+            android:id="@+id/horariosBuscaMatinalTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/buscaMatinalTxt"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="15dp"
+            android:text="Todas as quartas às 06:00"/>-->
+        <TextView
+            android:id="@+id/ceiaTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/horariosGcTxt"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="10dp"
+            android:text="Ceia do Senhor:"
+            android:textSize="18dp" />
+        <TextView
+            android:id="@+id/horariosCeiaTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ceiaTxt"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="15dp"
+            android:text="Todo primeiro domingo do mês nos horários dos cultos"/>
+        <TextView
+            android:id="@+id/vigiliaTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/horariosCeiaTxt"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="10dp"
+            android:text="Vigília:"
+            android:textSize="18dp" />
+        <TextView
+            android:id="@+id/horariosVigilialTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/vigiliaTxt"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="15dp"
+            android:text="Toda última sexta do mês às 21:00"/>
+
+    </RelativeLayout>
+</ScrollView>

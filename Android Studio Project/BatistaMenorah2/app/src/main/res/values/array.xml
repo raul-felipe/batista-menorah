@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="audiosSpinner">
+        <item>Domingos</item>
+        <item>Conferência Audaz - DESCONFORME-SE</item>
+    </string-array>
+</resources>

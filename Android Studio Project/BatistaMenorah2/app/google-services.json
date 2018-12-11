@@ -1,0 +1,71 @@
+{
+  "project_info": {
+    "project_number": "204805926295",
+    "firebase_url": "https://batistamenorah-88af8.firebaseio.com",
+    "project_id": "batistamenorah-88af8",
+    "storage_bucket": "batistamenorah-88af8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:204805926295:android:352dacfb29357b1d",
+        "android_client_info": {
+          "package_name": "raulalmeida.batistamenorah"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "204805926295-b9pg7pqbhj55u256i6dhds4jor69ek0f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "raulalmeida.batistamenorah",
+            "certificate_hash": "1ebe3ee0249304a3c35fc1b76f3ce1be0e4338eb"
+          }
+        },
+        {
+          "client_id": "204805926295-85vllvc16mk8dc77f945omfundvnnagk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "raulalmeida.batistamenorah",
+            "certificate_hash": "bb84a6658417b80d63bd9b74cb3a9628e76aa622"
+          }
+        },
+        {
+          "client_id": "204805926295-o8hp89n88lbgsthm5e91riqodid2fp2q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "raulalmeida.batistamenorah",
+            "certificate_hash": "5c5302fc127b2d1722aebc465944413f8d224b00"
+          }
+        },
+        {
+          "client_id": "204805926295-c9ujcn4fm5leua4pngi3m310lmj3j0ae.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDx-Q_qeBM6ILsaC0WLlT9IFe1FoAZ74ek"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "204805926295-c9ujcn4fm5leua4pngi3m310lmj3j0ae.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

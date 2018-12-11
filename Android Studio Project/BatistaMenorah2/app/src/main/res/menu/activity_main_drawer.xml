@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/inicio"
+            android:icon="@mipmap/home"
+            android:title="Inicio" />
+        <item
+            android:id="@+id/noticias"
+            android:icon="@mipmap/news"
+            android:title="Notícias" />
+        <item
+            android:id="@+id/audios"
+            android:icon="@mipmap/audio"
+            android:title="Audios" />
+        <item
+            android:id="@+id/estudos"
+            android:icon="@mipmap/note"
+            android:title="Estudos" />
+        <item
+            android:id="@+id/conta"
+            android:icon="@mipmap/account"
+            android:title="Conta" />
+
+    </group>
+
+</menu>
